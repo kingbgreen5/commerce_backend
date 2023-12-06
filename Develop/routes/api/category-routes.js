@@ -54,9 +54,10 @@ router.post('/', async (req, res) => {
 
 
 router.put('/:id', async (req, res) => {
+  console.log();
   // update a category by its `id` value
   try {
-const categoryUpdate = await findByPk(req.params.id)
+const categoryUpdate = await Category.findByPk(req.params.id)
 
 if (!categoryUpdate){
   return res.status(404).json({ error: 'Category not found' });
@@ -91,10 +92,6 @@ router.delete('/:id', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-
-
-
-  
 });
 
 module.exports = router;
