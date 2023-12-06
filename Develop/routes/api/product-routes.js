@@ -41,18 +41,18 @@ router.get('/:id', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-
 });
 
 // create new product
 router.post('/', (req, res) => {
   console.log("Product Post Route");
-    // {
-    //   "product_name": "Basketball",
-    //   "price": 200.00,
-    //   "stock": 3,
-    //   "tagIds": [1, 2, 3, 4]
-    // }
+  // {
+  //   "product_name": "Basketball",
+  //   "price": 200.00,
+  //   "stock": 100,
+  //   "category_id": 6,
+  //   "tagIds": [4]
+  // }
   Product.create(req.body)
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model

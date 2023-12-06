@@ -9,15 +9,13 @@ Run  'npm i'  to install dependencies.
 
 ## Usage
 Input 'npm start'  to initiate the program.
-
-
-![Image of the program](./Images/Screenshot.png)
+![Image of the program](./Develop/images/Untitled.png)
 
 Link to github repository.
 https://github.com/kingbgreen5/commerce_backend
 
 Link to Video Tutorial.
-https://drive.google.com/file/d/1eNkormuY-En2ygIZfEMEyMqHceGMtxM_/view
+https://drive.google.com/file/d/1adgqwL-duFitbJ-vD2Al7ys048K_zXMO/view
 =======
 
 ## Credits
