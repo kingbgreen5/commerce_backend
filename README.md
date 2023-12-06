@@ -8,6 +8,9 @@ Uses Sequelize, and mysql2 for database manangement, Dotenv for database connect
 Run  'npm i'  to install dependencies.
 
 ## Usage
+log in to mysql and run 'source ./db/schema.sql'
+leave mysql
+Seed databases with  'node seeds/index.js'
 Input 'npm start'  to initiate the program.
 ![Image of the program](./Develop/images/Untitled.png)
 
@@ -15,7 +18,7 @@ Link to github repository.
 https://github.com/kingbgreen5/commerce_backend
 
 Link to Video Tutorial.
-https://drive.google.com/file/d/1adgqwL-duFitbJ-vD2Al7ys048K_zXMO/view
+https://drive.google.com/file/d/1cli65HEamHQJyz2clBueOvP2Kk4d3L1W/view
 =======
 
 ## Credits
